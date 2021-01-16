@@ -1,0 +1,1 @@
+function A = find_err(target_y,m,x,c)  i=1;  er_sum = 0;  while(i<=size(x,2))    err = target_y(i)-((m*x(i))+c);    er_sum = er_sum+err^2;    i = i+1;  end  A=er_sum/size(x,2);end
