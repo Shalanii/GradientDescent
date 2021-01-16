@@ -1,0 +1,1 @@
+function der = find_derivative_of_rss_to_m_one_coordinate(target_y,x,m,c,N)  sum_er = (target_y -((m*x)+c))*x;  der = (-2)*sum_er;end
