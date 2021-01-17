@@ -10,7 +10,7 @@ function A = find_rss4(target_y,m,x,c)
       i = 1;
       while(i<=size(x,2))
         err = target_y(i)-((m1*x(i))+c1);
-        er_sum = er_sum+err^2;
+        er_sum = er_sum+err.^2;
         i = i+1;
       end
       A(j,k)=er_sum/size(x,2);

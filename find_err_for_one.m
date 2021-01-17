@@ -1,0 +1,1 @@
+function er_square = find_err_for_one(target_y,m,x,c)    err = target_y-((m*x)+c);    er_square = err^2;end
