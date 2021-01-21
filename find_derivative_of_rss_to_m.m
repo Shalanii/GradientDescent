@@ -6,7 +6,5 @@ function der = find_derivative_of_rss_to_m(target_y,x,m,c,N)
     sum_er = sum_er+errors;
     i++;
   end
-  fprintf("sum er %d",sum_er);
   der = (1/N)*sum_er;
-  #der = 3;
 end
